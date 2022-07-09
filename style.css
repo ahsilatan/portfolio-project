@@ -1,0 +1,85 @@
+:root {
+  --main-color: #2a4494;
+  --second-color: #a3cff1;
+  --accent-color: #385357;
+  --box-shadow: 0 5px 10px rgba(54, 115, 173, 0.3);
+  --gradient: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+body {
+  margin-top: 100px;
+  background: var(--gradient);
+  background-attachment: fixed;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-size: 85px;
+  color: var(--main-color);
+}
+h2 {
+  font-size: 55px;
+  color: var(--accent-color);
+}
+h3 {
+  font-size: 25px;
+  color: var(--accent-color);
+}
+p {
+  background: var(--second-color);
+  padding: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+}
+.navigation {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.navigation a {
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.contact-link {
+  background: var(--second-color);
+  box-shadow: var(--box-shadow);
+}
+
+.about-link {
+  box-shadow: var(--box-shadow);
+  border: 2px solid var(--second-color);
+}
+.about-link:hover {
+  background: var(--second-color);
+  box-shadow: var(--box-shadow);
+}
+.homepage {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: var(--accent-color);
+}
+.email {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--main-color);
+  margin-bottom: 100px;
+}
+.about-me-content {
+  display: flex;
+  margin: 50px;
+}
+.about-me-content p {
+  margin: 15px;
+}
