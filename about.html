@@ -4,57 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
 
     <title>About me</title>
   </head>
   <body>
-    <a href="index.html" class="homepage">Back to homepage↩</a>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ace0f9">
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="https://www.instagram.com/ahsilatan/"
+          target="_blank"
+          >AHSILATAN</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About me</a>
+            <a class="nav-link" href="about.html#email">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <h1>About me</h1>
     <h2>Front-end developer from Ukraine</h2>
-    <div class="about-me-content">
-      <p>
+    <div class="d-flex justify-content-center">
+      <p class="about-me-content">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-        <br />
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-        <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
         aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
         alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
         blanditiis harum.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-        <br />
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-        <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="img/2.PNG"
+            alt="parfume page"
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="img/1.PNG"
+            alt="weather app"
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="img/3.PNG"
+            alt="parfume page"
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+      </div>
     </div>
     <h2 id="email">✉️Contact me</h2>
     <a href="mailto:ahsilatan@gmail.com" class="email">ahsilatan@gmail.com</a>
