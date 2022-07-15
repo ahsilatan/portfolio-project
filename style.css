@@ -5,6 +5,7 @@
   --box-shadow: 0 5px 10px rgba(54, 115, 173, 0.3);
   --gradient: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
+
 body {
   background: var(--gradient);
   background-attachment: fixed;
@@ -106,4 +107,23 @@ img {
 }
 .about-me-content p {
   margin: 15px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  p {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  .row {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+  }
 }
