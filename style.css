@@ -2,13 +2,16 @@
   --main-color: #2a4494;
   --second-color: #a3cff1;
   --accent-color: #385357;
-  --box-shadow: 0 5px 10px rgba(54, 115, 173, 0.3);
+  --box-shadow: 0 3px 5px rgba(54, 115, 173, 0.3);
   --gradient: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 body {
   background: var(--gradient);
   background-attachment: fixed;
+}
+header {
+  margin-top: 150px;
 }
 h1,
 h2,
@@ -20,18 +23,20 @@ h1 {
   font-size: 85px;
   color: var(--main-color);
   font-family: "Cormorant SC", serif;
+  margin-top: 20px;
 }
 h2 {
   font-size: 55px;
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
-  font-weight: regular;
+  font-weight: 300;
 }
 h3 {
   font-size: 25px;
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+  margin-top: 20px;
 }
 p {
   background: var(--second-color);
@@ -65,26 +70,23 @@ img {
 .navigation a {
   margin: 20px;
   border-radius: 5px;
-  padding: 20px;
+  padding: 15px 30px;
   text-decoration: none;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-}
-.contact-link {
-  background: var(--second-color);
-  box-shadow: var(--box-shadow);
+  color: var(--main-color);
 }
 
-.about-link {
+.contact-link {
   box-shadow: var(--box-shadow);
   border: 2px solid var(--second-color);
 }
-.about-link:hover {
+.contact-link:hover {
   background: var(--second-color);
   box-shadow: var(--box-shadow);
 }
-.launch {
+.conta .launch {
   color: white;
   margin: 20px;
   border-radius: 5px;
