@@ -19,14 +19,19 @@ h3 {
 h1 {
   font-size: 85px;
   color: var(--main-color);
+  font-family: "Cormorant SC", serif;
 }
 h2 {
   font-size: 55px;
   color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: regular;
 }
 h3 {
   font-size: 25px;
   color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 p {
   background: var(--second-color);
@@ -35,6 +40,8 @@ p {
   border-radius: 5px;
   font-size: 18px;
   line-height: 150%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
 img {
   vertical-align: center;
@@ -61,6 +68,8 @@ img {
   padding: 20px;
   text-decoration: none;
   font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 .contact-link {
   background: var(--second-color);
