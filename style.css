@@ -68,9 +68,19 @@ a {
   font-weight: 400;
   color: #2a4494;
 }
+a:hover {
+  color: var(--main-color);
+}
 footer {
   text-align: center;
+  background-color: var(--second-color);
 }
+i {
+  margin-inline: 15px;
+
+  font-size: 32px;
+}
+
 .row {
   display: flex;
 }
@@ -174,6 +184,19 @@ footer {
 .works-img {
   margin-bottom: 30px;
 }
+.footer-content {
+  background: none;
+  padding: 15px;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+.footer-link {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 65px;
@@ -237,5 +260,17 @@ footer {
     display: block;
     margin: 0 auto;
     text-align: center;
+  }
+  .footer-content {
+    background: none;
+    padding: 8px;
+    margin: 0;
+    font-size: 12px;
+  }
+  .footer-link {
+    font-size: 12px;
+  }
+  .contact-header {
+    font-size: 55px;
   }
 }
